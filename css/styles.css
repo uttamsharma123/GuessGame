@@ -1,0 +1,66 @@
+.Hint{
+    text-align:center;
+    padding:20px 0 20px 0;
+    font-size:2.3rem;
+    font-family: 'Lato', sans-serif;
+    background-color:#dcd6f7;
+    border:1px solid blue;
+    font-weight: bold;
+    color:#ecfbfc;
+    text-shadow:4px 3px  2px #1b262c;
+}
+.top-text{
+    padding:2%;
+    
+}
+.bigImg{
+    width:300px;
+    height:300px;
+    padding:3% 2%;
+    margin:20px 10px;
+}
+.selectImg{
+    width:200px;
+    height:200px;
+    padding-top:10%;
+    margin:20px 20px;
+   
+    
+
+}
+.middle{
+    text-align:center;
+   
+    padding:2% 3%;
+}
+
+#game-section-Border{
+    border:1px solid blue;
+}
+.selectButton{
+   border:none;
+   background-color: #fff;
+   margin-top:10%;
+  
+}
+.correct-icon{
+    width:100px;
+    height:100px;
+}
+
+@media only screen and (max-width: 600px){
+    .Hint{
+        font-size:1.2rem;
+        text-shadow:2px 2px  2px #1b262c;
+    }
+    .bigImg{
+        width:100px;
+        height:100px;
+    }
+    .selectImg{
+        width:50px;
+        height:50px;
+        
+        
+    }
+}
